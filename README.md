@@ -9,4 +9,4 @@
 * Tableau
 
 ## ER Diagram for Database Structure
-![image](picture or gif url)
+![image](image/ER model.jpg)
