@@ -28,4 +28,5 @@ Assign (playerId, positionId)
 
 ## Visualizaiton on Tableau
 * What are the average weight and height of the baseball team players in each position?
-
+  
+![image/db%20Q1.jpg](https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db%20Q1.jpg)
