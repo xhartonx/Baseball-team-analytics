@@ -27,10 +27,14 @@ Play(playerId, gameId)<br/>
 Assign (playerId, positionId)
 
 ## Visualizaiton on Tableau
-* The first chart was created to address how the coach distributes players based on their heights and weights. By showing the average height and weight for each position—pitching, fielding, and batting
-  
-![image/db%20Q1.jpg](https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db%20Q1.jpg)
 
-* The second chart
+1.The chart was created to address how the coach distributes players based on their heights and weights. By showing the average height and weight for each position—pitching, fielding, and batting
+
+<img width="80%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db%20Q1.jpg">
+
+
+2.The chart shows that taller players are more common in pitching, particularly in winning games, while height seems to have less impact on batting and fielding outcomes. This may suggest height is more crucial for pitchers
 
 ![image/Q5.png](https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5.png)
+
+
