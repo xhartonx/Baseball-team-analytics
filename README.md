@@ -47,6 +47,8 @@ This chart reveals that taller players are predominantly chosen as pitchers, esp
 
 ### 2.2 Player Weight and Winning Impact
 
+This heatmap shows that pitchers, particularly those with a higher average weight, tend to win more games compared to batters and fielders. Heavier pitchers generally contribute to wins across the years, while batting and fielding positions exhibit less variation in weight between winning and losing outcomes. The data suggests that weight may play a more significant role in pitching performance
+
 <img width="70%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5-2.png">
 
 ### 3. Impact of Temperature on Team Performance and Win Rate Trends
