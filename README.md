@@ -56,3 +56,9 @@ This heatmap shows that pitchers, particularly those with a higher average weigh
 As temperatures rise throughout the season, the team’s win rate increases, peaking in June. Colder weather in March correlates with a slight dip in performance, suggesting warmer conditions may contribute to better results
 
 <img src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db03.jpg" alt="image" style="height:500px; width:auto;">
+
+### 4. Impact of Temperature on Team Performance and Win Rate Trends
+
+This chart also highlights that colder weather tends to lower the winning rate across different years. The data suggests that games played in cooler temperatures are more likely to result in losses, reinforcing the idea that warmer conditions may be more favorable for winning outcomes
+
+<img src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db04.jpg" alt="image" style="height:500px; width:auto;">
