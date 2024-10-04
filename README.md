@@ -8,11 +8,13 @@ University of Maryland Baseball Website (https://umterps.com/sports/basebal)
 * Leveraged Tableau to develop intuitive visualizations and interactive dashboards, providing an in-depth analysis of the baseball team's performance to help improve the winning rate
 
 ## Project goal
-This project aims to analyze and optimize the baseball team's winning rate by examining player distribution based on height and weight, and identifying performance trends influenced by temperature conditions
+The goal of this project is to analyze and optimize the baseball team’s win rate. Specifically, the analysis focuses on:
+* Player distribution based on height and weight.
+* Identifying performance trends influenced by temperature conditions.
 
 ## Tools Used
-* Microsoft SQL Server
-* Tableau
+* Microsoft SQL Server: For database management and querying.
+* Tableau: For visualization and dashboard creation.
 
 ## ER Diagram for Database Structure
 ![image/ER model.jpg](https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/ER%20model.jpg)
@@ -28,13 +30,20 @@ Assign (playerId, positionId)
 
 ## Visualizaiton on Tableau
 
-1.The chart was created to address how the coach distributes players based on their heights and weights. By showing the average height and weight for each position—pitching, fielding, and batting
+### 1. Player Distribution Based on Height and Weight
+
+The first chart visualizes how the coaching staff distributes players by their heights and weights. It highlights the average height and weight for each position—pitching, fielding, and batting
 
 <img width="80%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db%20Q1.jpg">
 
 
-2.The chart shows that taller players are more common in pitching, particularly in winning games, while height seems to have less impact on batting and fielding outcomes. This may suggest height is more crucial for pitchers
+### 2. Player Height and Winning Impact
+   
+This chart reveals that taller players are predominantly chosen as pitchers, especially in winning games. However, height appears to have less impact on batting and fielding success. The data suggests that height is more critical for pitchers
 
-![image/Q5.png](https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5.png)
+<img width="80%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5.png">
 
 
+### 3.
+
+<img height="50%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db03.jpg">
