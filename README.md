@@ -39,12 +39,15 @@ The chart visualizes how the coaching staff distributes players by their heights
 <img width="70%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db%20Q1.jpg">
 
 
-### 2. Player Height and Winning Impact
+### 2.1 Player Height and Winning Impact
    
 This chart reveals that taller players are predominantly chosen as pitchers, especially in winning games. However, height appears to have less impact on batting and fielding success. The data suggests that height is more critical for pitchers
 
 <img width="70%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5.png">
 
+### 2.2 Player Weight and Winning Impact
+
+<img width="70%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5-2.png">
 
 ### 3. Impact of Temperature on Team Performance and Win Rate Trends
 
