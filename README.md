@@ -1,20 +1,24 @@
-# Baseball Team Winning Rate Analysis
+# University of Maryland Baseball Team Performance Analysis
 
 ## Data source
-University of Maryland Baseball Website (https://umterps.com/sports/basebal)
+[University of Maryland Baseball Website](https://umterps.com/sports/baseball)
 
 ## Overview
-* Employed Microsoft SQL Server to establish a database, integrating various data sources, performing data cleansing, and constructing specific queries to filter key data impacting the win rate
-* Leveraged Tableau to develop intuitive visualizations and interactive dashboards, providing an in-depth analysis of the baseball team's performance to help improve the winning rate
+This project employs **Microsoft SQL Server** and **Tableau** to analyze critical factors affecting the University of Maryland baseball team's win rate. The analysis focuses on player distribution (height and weight) and the influence of temperature conditions on performance.
+
+- **Microsoft SQL Server**: Used for database management, integrating multiple data sources, data cleansing, and querying.
+- **Tableau**: Used to create intuitive visualizations and interactive dashboards, providing insights to optimize the team’s win rate.
+
+**Insights generated from the analysis can guide the coaching staff in optimizing player selection based on physical attributes and environmental factors, ultimately improving the team's performance.**
 
 ## Project goal
-The goal of this project is to analyze and optimize the baseball team’s win rate. Specifically, the analysis focuses on:
+The primary goal of this project is to **optimize decision-making** by analyzing key performance indicators, such as player distribution and temperature trends, that contribute to game outcomes. The analysis specifically targets:
 - Player distribution based on height and weight.
-- Identifying performance trends influenced by temperature conditions.
+- Identifying performance trends influenced by temperature.
 
 ## Tools Used
-- **Microsoft SQL Server**: For database management and querying.
-- **Tableau**: For visualization and dashboard creation.
+- **Database Management**: Microsoft SQL Server
+- **Visualization**: Tableau
 
 ## ER Diagram for Database Structure
 
@@ -31,34 +35,39 @@ The project’s relational schema defines the following entities and their relat
 - **Assign**: (playerId, positionId)
 
 ## Visualizaiton on Tableau
+Below are the insights derived from the visualizations built in Tableau.
 
 ### 1. Player Distribution Based on Height and Weight
 
-The chart visualizes how the coaching staff distributes players by their heights and weights. It highlights the average height and weight for each position—pitching, fielding, and batting
+- **Objective**: Analyze how the coaching staff distributes players by height and weight.
+- **Key Insight**: The chart highlights the average height and weight for each position—pitching, fielding, and batting.
 
 <img width="70%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db%20Q1.jpg">
 
-
-### 2.1 Player Height and Winning Impact
+### 2.1 Height's Impact on Winning
    
-This chart reveals that taller players are predominantly chosen as pitchers, especially in winning games. However, height appears to have less impact on batting and fielding success. The data suggests that height is more critical for pitchers
+- **Objective**: Determine the role of player height in winning games.
+- **Key Insight**: Taller players are predominantly chosen as pitchers, particularly in winning games. Height has less impact on batting and fielding success, suggesting its critical importance for pitching.
 
 <img width="70%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5.png">
 
-### 2.2 Player Weight and Winning Impact
-
-This heatmap shows that pitchers, particularly those with a higher average weight, tend to win more games compared to batters and fielders. Heavier pitchers generally contribute to wins across the years, while batting and fielding positions exhibit less variation in weight between winning and losing outcomes. The data suggests that weight may play a more significant role in pitching performance
+### 2.2 Weight's Impact on Winning
+- **Objective**: Analyze the impact of player weight on game outcomes.
+- **Key Insight**: Heavier pitchers tend to win more games compared to batters and fielders. Weight plays a significant role in pitching success, while batting and fielding positions show less variation in weight between winning and losing.
 
 <img width="70%" alt="image" src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/Q5-2.png">
 
-### 3. Impact of Temperature on Team Performance and Win Rate Trends
-
-As temperatures rise throughout the season, the team’s win rate increases, peaking in June. Colder weather in March correlates with a slight dip in performance, suggesting warmer conditions may contribute to better results
+### 3. Temperature’s Impact on Performance
+- **Objective**: Examine the correlation between temperature and team performance.
+- **Key Insight**: Warmer temperatures, particularly during June, correlate with increased win rates, while colder weather in March leads to a dip in performance.
 
 <img src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db03.jpg" alt="image" style="height:500px; width:auto;">
 
-### 4. Impact of Temperature on Team Performance and Win Rate Trends
-
-This chart also highlights that colder weather tends to lower the winning rate across different years. The data suggests that games played in cooler temperatures are more likely to result in losses, reinforcing the idea that warmer conditions may be more favorable for winning outcomes
+### 4. Win Rate Trends Across Seasons
+- **Objective**: Identify win rate trends in different temperature conditions over several seasons.
+- **Key Insight**: Colder temperatures tend to result in lower win rates across seasons, while warmer conditions correlate with better outcomes.
 
 <img src="https://github.com/xhartonx/Baseball-team-analytics/blob/main/image/db04.jpg" alt="image" style="height:500px; width:auto;">
+
+# Conclusion
+By identifying critical factors such as height, weight, and temperature, this analysis provides actionable insights to guide the team's strategy. Adjustments in player selection and game scheduling could significantly enhance the team’s win rate, with warmer weather appearing to be a key factor for better performance.
